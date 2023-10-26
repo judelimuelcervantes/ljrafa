@@ -1,217 +1,114 @@
-
-.pres{
-    margin-left: 10%;
-    margin-top: 20%;
+.home h1{
+    position: absolute;
+    font-size: 60px;
+    right: 10%;
+    bottom: 295px;
 }
 
-.pres h1{
-    font-size: 50px;
-    color: black;
-    margin-bottom: 20px;
-}
-
-span{
-    color: orange;
-}
-
-.pres p{
-    color: black;
-    line-height: 22px;
-}
-
-.pres a{
-    background: black;
-    padding: 10px  18px;
-    text-decoration: none;
+.home p{
+    position: absolute;
     font-weight: bold;
-    color: white;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
+    right: 23%;
+    bottom: 255px;
+    font-size: 18px;
 }
 
-.images{
-    width: 45%;
-    height: 90%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-}
-
-.images img{
-    height: 88%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s left 1s;
-}
-
-.images:hover .shape{
-    bottom: 40px;
-    transition-duration: 1.5s;
-}
-
-.images:hover .lj{
-    left: 45%;
-    transition-duration: 1.5s;
-}
-
-.geto a img{
+.home a img{
     width: 50px;
 }
 
-.geto a img:hover{
+.home a img:hover{
     width: 60px;
-    transition-duration: 1.3s;
+    transition-duration: 1.0s;
 }
 
-.gojo h1{
+span{
+    color: brown;
+}
+
+.lj img{
+    width: 330px;
     position: absolute;
-    letter-spacing: 4px;
-    left: 16%;
-    bottom: -90%;
-    font-size: 150px;
+    left: 15%;
+    bottom: 10%;
+    border-radius: 200px;
+}
+
+.about p{
+    position: absolute;
+    top: 150%;
+    left: 5%;
     font-weight: bold;
+    font-size: 18px;
 }
 
-.gojo p{
-    font-size: 20px;
-    position: absolute;
-    left: 18%;
-    bottom: -145%;
+.educational h1{
+    text-align: center;
+    font-size: 60px;
 }
-
-.gojo img{
-    width: 280px;
-    position: absolute;
-    border-radius: 300px;
-    left: 39%;
-    bottom: -118%;
-    border: 3px solid black;
-}
-
-.gojo h2{
-    position: absolute;
-    bottom: -90%;
-    left: 20%;
-}
-
-.gojo .text{
-    position: absolute;
-    bottom: -90%;
-    right: 20%;
-    font-size: 23px;
-}
-
-.jjk h1{
-    font-size: 70px;
-    position: absolute;
-    bottom: -190%;
-    left: 14%;
-}
-
-.container img{
-    height: 400px;
-    width: 350px;
-    border-radius: 3px;
-    transition: .5s;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-}
-
-.card{
-    height: 400px;
-    margin: 50px;
-    box-shadow: 5px 5px 20px black;
-    overflow: hidden;
-}
-
-.intro{
-    height: 70px;
-    width: 350px;
-    padding: 5px;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: -257%;
-    background: rgb(27, 27, 27, .5);
-    color: white;
-    transition: .5s;
-    transition-duration: 1.5s;
-}
-
-.int{
-    height: 70px;
-    width: 333px;
-    padding: 5px;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: -257%;
-    background: rgb(27, 27, 27, .5);
-    color: white;
-    transition: .5s;
-    transition-duration: 1.5s;
-}
-
-
-.container h1{
-    margin: 10px;
-    font-size: 40px;
-}
-.container p{
-    font-size: 20px;
-    margin: 20px;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.container span{
-    font-weight: bold;
-}
-
-.card:hover{
-    cursor: pointer;
-}
-
-.card:hover .intro{
-    height: 220px;
-    bottom: -257%;
-    background: black;
-}
-
-.card:hover .int{
-    height: 220px;
-    bottom: -257%;
-    background: black;
-}
-
-.card:hover p{
-    opacity: 1;
-    visibility: visible;
-    
-}
-
-.card:hover img{
-    transform: scale(1.1) rotate(-3deg);
-}
-
-.table h1{
-    position: absolute;
-    top: -14%;
-    font-size: 70px;
-    right: 235px;
-}
-
 
 .table{
     position: absolute;
-    margin-bottom: -240%;
-    right: 300px;
+    top: 240%;
+    left: 2%;
+}
 
+.baysap{
+   display: flex;
+   align-items: center;
+   justify-self: center;
+   position: relative;
+   left: 5%;
   
+   
+   
+
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+   padding: 10px 0;
+   color: black;
+   outline: none;
+   border: 1px solid black;
+   width: 623px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    font-size: 14px;
 }
